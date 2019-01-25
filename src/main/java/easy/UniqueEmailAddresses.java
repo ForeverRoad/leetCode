@@ -1,6 +1,8 @@
 package easy;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -77,6 +79,7 @@ public class UniqueEmailAddresses {
         }
         return set.size();
     }
+
 
     public static void main(String[] args) {
         String[] arr = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
