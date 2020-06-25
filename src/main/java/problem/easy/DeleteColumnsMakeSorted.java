@@ -1,4 +1,4 @@
-package easy;
+package problem.easy;
 
 /**
  * @Description We are given an array A of N lowercase letter strings, all of the same length.

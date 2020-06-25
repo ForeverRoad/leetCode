@@ -1,4 +1,4 @@
-package easy;
+package problem.easy;
 
 /**
  * @Auther zcf

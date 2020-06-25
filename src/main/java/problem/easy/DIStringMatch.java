@@ -1,4 +1,4 @@
-package easy;
+package problem.easy;
 
 /**
  * @Description Given a string S that only contains "I" (increase) or "D" (decrease), let N = S.length.
