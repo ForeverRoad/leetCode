@@ -15,7 +15,7 @@ public class PrintListNode {
 
     public static void main(String[] args) {
         ListNode node = new ListNode(2);
-        node.next = new ListNode(5);
+        node.next(new ListNode(5));
         printFromEnd(node);
     }
 
@@ -23,8 +23,8 @@ public class PrintListNode {
     public static void printFromEnd(ListNode node) {
         Stack<Integer> stack = new Stack<>();
         while (node!=null){
-            stack.push(node.val);
-            node=node.next;
+            stack.push(node.getVal());
+            node=node.getNext();
         }
         while (!stack.empty()){
             System.out.println(stack.pop());
