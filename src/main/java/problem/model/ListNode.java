@@ -1,4 +1,4 @@
-package problem;
+package problem.model;
 
 /**
  * @Description 链表

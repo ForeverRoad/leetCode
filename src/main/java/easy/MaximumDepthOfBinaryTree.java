@@ -1,6 +1,6 @@
 package easy;
 
-import model.TreeNode;
+import problem.model.TreeNode;
 
 /**
  * Given a binary tree, find its maximum depth.

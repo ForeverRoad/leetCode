@@ -1,6 +1,6 @@
 package problem.need;
 
-import problem.ListNode;
+import problem.model.ListNode;
 
 import java.util.Stack;
 

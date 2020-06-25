@@ -1,6 +1,6 @@
 package problem.need;
 
-import problem.ListNode;
+import problem.model.ListNode;
 
 /**
  * @Description TODO
