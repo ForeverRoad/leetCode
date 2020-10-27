@@ -59,10 +59,13 @@ public class QueryTree {
         if (root==null){
             return;
         }
+
         Stack<TreeNode> stack = new Stack<>();
+        List<Integer> result = new ArrayList<>();
         while (root!=null||!stack.empty()){
             while (root!=null){
-                System.out.println(root.getVal());
+//                System.out.println(root.getVal());
+                result.add(root.getVal());
                 stack.push(root);
                 root = root.getLeft();
             }
